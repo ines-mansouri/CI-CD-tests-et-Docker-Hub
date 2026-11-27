@@ -1,8 +1,8 @@
 const { greet } = require('../../src/greet')
 
 describe('greet() - tests unitaires', () => {
-  test('renvoie "Hello World!" sans paramètre', () => {
-    expect(greet()).toBe('Hello World!')
+  test('renvoie "Hello GitHub Actions!" sans paramètre', () => {
+    expect(greet()).toBe('Hello GitHub Actions!')
   })
 
   test('salue la personne passée en paramètre', () => {
