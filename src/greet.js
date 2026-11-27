@@ -3,7 +3,7 @@ function greet(name) {
     return 'Hello World!'
   }
 
-  return `Hello ${name.trim()}!`
+  return `Hello ${name}!`
 }
 
 module.exports = { greet }
