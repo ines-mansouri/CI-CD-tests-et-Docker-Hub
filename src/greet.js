@@ -1,6 +1,6 @@
 function greet(name) {
   if (typeof name !== 'string' || name.trim() === '') {
-    return 'Hello World!'
+    return 'Hello GitHub Actions!'
   }
 
   return `Hello ${name.trim()}!`

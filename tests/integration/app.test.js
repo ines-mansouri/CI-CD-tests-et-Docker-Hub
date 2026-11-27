@@ -2,11 +2,11 @@ const request = require('supertest')
 const app = require('../../src/app')
 
 describe("API Express - tests d'intégration", () => {
-  test('GET / renvoie 200 et "Hello World!"', async () => {
+  test('GET / renvoie 200 et "Hello GitHub Actions!"', async () => {
     const res = await request(app).get('/')
 
     expect(res.statusCode).toBe(200)
-    expect(res.text).toBe('Hello World!')
+    expect(res.text).toBe('Hello GitHub Actions!')
   })
 
   test('GET /hello/:name salue la personne', async () => {
